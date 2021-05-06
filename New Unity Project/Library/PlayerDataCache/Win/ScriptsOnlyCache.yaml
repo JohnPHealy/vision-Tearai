@@ -7,9 +7,11 @@ ScriptsOnlyBuild:
     - DoorSlam
     - DragObject
     - FirstPersonController
+    - Flicker
     - GetKey
     - JumpScare
     - Scene
+    - ShowLamp
     - TheEnd
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.PolyShape
@@ -181,6 +183,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16008}
     - Class: 114
       Script: {instanceID: 16782}
+    - Class: 114
+      Script: {instanceID: 20982}
+    - Class: 114
+      Script: {instanceID: 43756}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1561,6 +1567,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: edb7990dddbe8a3ff5fa523e0ba91c4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Flicker
+  - hash:
+      serializedVersion: 2
+      Hash: e1768d98b5c66bb8eaaa612fb3c3c7a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowLamp
   platform: 5
   scenePathNames:
   - Assets/Scenes/Start.unity
